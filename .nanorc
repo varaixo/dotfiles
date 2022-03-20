@@ -1,0 +1,11 @@
+## Do case sensitive searches by default.
+set casesensitive
+
+## Don't wrap text.
+set nowrap
+
+## Allow nano to be suspended.
+set suspend
+
+## Reduce tab length.
+set tabsize 4

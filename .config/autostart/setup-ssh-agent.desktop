@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/bin/bash -c "test -x /usr/libexec/ssh/ksshaskpass || exit 0; export SSH_ASKPASS=/usr/libexec/ssh/ksshaskpass; /usr/bin/ssh-add -q ~/.ssh/id_rsa < /dev/null"
+Icon=dialog-scripts
+Name=Configure SSH agent
+Path=
+Type=Application
+X-KDE-AutostartScript=true
